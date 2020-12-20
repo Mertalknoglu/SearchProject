@@ -1,0 +1,153 @@
+body {
+  width: 902px;
+  height: 705px;
+  background: #f4f6fe;
+  box-sizing: border-box;
+}
+
+img {
+  width: 15px;
+  padding: 0px;
+}
+
+.Messages {
+  width: 131px;
+  height: 38px;
+  border-radius: 5px;
+  background: #f9effa;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.Attachments {
+  width: 151px;
+  height: 38px;
+  border-radius: 5px;
+  background: #e6f6f2;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.People {
+  width: 107px;
+  height: 38px;
+  border-radius: 5px;
+  background: #f4f3fd;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.container {
+  width: 600px;
+  height: 300px;
+  padding: 20px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -150px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+ /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  font-family: "Muli-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+ul li:hover {
+  background-color: #eee;
+}
+
+input {
+  border: none;
+  width: 450px;
+}
+
+button {
+  border: none;
+  background: #f4f3fd;
+  float: right;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.remove {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+}
+
+.remove:hover {
+  background: #bbb;
+}
+
+.rs {
+  cursor: pointer;
+}
+
+hr {
+  width: 600px;
+  height: 1px;
+  background: rgba(15,15,43,0.1);
+}
+
+#trending {
+  opacity: 0.5;
+  width: 170px;
+  height: 25px;
+  color: #4b5fa0;
+  font-family: "Muli-Bold";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+#rsearch {
+  opacity: 0.5;
+  width: 118px;
+  height: 19px;
+  color: #4b5fa0;
+  font-family: "Muli-Bold";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+#recent {
+  width: 52px;
+  height: 21px;
+  color: #0f0f2b;
+  font-family: "Muli-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.canvasrs {
+  max-height: 140px;
+  overflow: auto;
+}
